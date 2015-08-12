@@ -7,17 +7,18 @@ After searching for an Customizable Voice Assistant for Linux earlier this year,
 
 Sadly i had no time to finish the Job and since it's stuck for a few Month i though i should just publish what i got, and maybe there is someone out there who can use some of my Ideas.. If you do so, i would be interested to hear some words about your project ;)
 
-Now whats working:
-- simple "godmode"-GUI which shows up in the middle of the Screen. originaly i planed to add an Status-Bar-Icon so you could freely press a hotkey(/or say a hotword) to start the voice recognition and get the result either per audio or via an popup and status updates via the changing Icon.
-- Yeah the Popups.. They're bit buggy right now but i figured it would be best to have some Google Now-like popup-cards instead of audio-only. Espacially because i don't like computer voices :D
-- the Addon-API. i think there is still a lot to do, but the general thinks work. Like support for an own settings-view or popups.. 
-- you can use parameters (static and dynamic) for your questions and answers. 
+Now, whats working:
+- simple "godmode"-GUI which shows up in the middle of the Screen. originaly i planed to add an Status-Bar-Icon so you could freely press a hotkey(/or say a hotword) to start the voice recognition and get the result either per Audio or via an Popup and Status-Updates via the changing Icon.
+- Yeah the Popups.. They're bit buggy right now but i figured it would be best to have some Google Now-like Popup-Cards instead of Audio-only. Espacially because i don't like computer voices :D
+- The Addon-API. I think there is still a lot to do, but the general things work. Like support for an own SettingsPanel or Popups.. 
+- You can use Parameters for your Questions, Answers and Commands.  
   e.g. static: pizzatimer=Time%reminder%period%m%Pizza%10 so the voice command "pizzatimer" should start an timer "Pizza" which takes 10minutes
-  dynamic: calculate %ws=calculate  executes the calculate-action with the parameters after the "calculate" keyword. "%ws" stands for a parameter with spaces, e.g. "x plus two" since i process the recognised text word by word.
+  dynamic: calculate %ws=calculate  executes the calculate-Action with the Parameters after the "calculate" keyword. "%ws" stands for a parameter with spaces, e.g. "x plus two" since i process the recognised Text Word by Word.
 
-thats basically it. there are few action implemented yet, for example for public transport (using the grad public-transport-enabler by Andreas Schildbach https://github.com/schildbach/public-transport-enabler also known from the great Öffi-App), RSS-feeds, search, and calculus by wolframalpha. The idea was that i focus on the kernel and make a "marketplace" for different addons, so you wouldn't have to load all addons but only those you like/need. If you make an addon/action please feel free to tell me about it ;)
+Thats basically it. There are a few Action implemented yet, for example for Public Transport (using the great public-transport-enabler by Andreas Schildbach https://github.com/schildbach/public-transport-enabler also known from the Öffi-App), RSS-feeds, Search, and Calculus by WolframAlpha. The idea was that i focus on the kernel and make a "marketplace" for different Addons, so you wouldn't have to load all Addons but only those you like/need. If you make an addon/action please feel free to tell me about it ;)
 
-You will probably get some problems on first start since i developed on linux and there are some things hard-coded which wont work on Win/Mac - but in general alls should work on linux/mac/win
+You will probably get some Problems on first start since i developed on linux and there are some things hard-coded which wont work on Win/Mac - but in general, all should work on linux/mac/win. You'll need an Google-API-Key and Internet for the Voice-Recognition to work. If you want to build your own Actions/Addons, you'll have to include the API into your Project and implement a Version of AbstractAction as your Main-Class. If you're finished, or want to test, simply copy your Projects Binaries into an Folder, named after your Main-Class in the addons-Folder. 
+You can find some more Information about what's important to know in the AbstractAction-Source.
 
 
 have fun ;)
