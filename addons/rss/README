@@ -1,0 +1,3 @@
+Addon for RSS-Feeds.
+Includes Settings Panel to set RSS-Links and Timer settings.
+If Jarvis finds unread link in a feed, alert the user and show short discription.

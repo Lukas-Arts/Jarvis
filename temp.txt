@@ -1,0 +1,2 @@
+{"result":[]}
+{"result":[{"alternative":[{"transcript":"Hotels","confidence":0.62143439},{"transcript":"Hotel"},{"transcript":"earth"},{"transcript":"Hallo Test"},{"transcript":"first"}],"final":true}],"result_index":0}

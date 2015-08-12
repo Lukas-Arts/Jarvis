@@ -1,0 +1,12 @@
+initialisiere %s protokoll=protocol | 0
+test=test%hallo1%hallo2%hallo3 | 0
+suche eine verbindung von %ws nach %ws=PublicTransport | 0
+öffne %ws im browser=browser | 0
+öffne browser=browser | 0
+löse %ws=calculate | 0
+was gibt es neues auf %ws=rss | 0
+setze einen timer auf %ws minuten=Time%reminder%period%m%Timer | 1
+pizzatimer=Time%reminder%period%m%Pizza%10 | 2
+berechne %ws=calculate | 0
+wann fährt der nächste bus von %ws nach %ws=PublicTransport | 0
+wann fährt der nächste bus nach %ws=PublicTransport%to | 1

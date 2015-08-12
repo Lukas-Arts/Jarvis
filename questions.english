@@ -1,0 +1,5 @@
+how will the weather in %s be %s=weather | 0
+asdf=browser | 0
+calculate %ws=calculate | 0
+open bla=browser | 0
+open %ws in browser=browser | 0

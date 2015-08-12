@@ -1,0 +1,14 @@
+#name=%number of possible answers%
+#name%num%=answer
+#%s for parameters in answer
+#Thu Mar 26 03:37:02 CET 2015
+opensite1=I hope it's not porn again ;)
+opensite0=here you go.. 
+opensite=2
+sorry0=Sorry, I was unable to open/find your default web-browser\!
+startbrowser1=Starting %s...
+startbrowser0=Starting %s for you, have fun\! ;)
+startbrowser=2
+sorry=1
+unknownparams=1
+unknownparams0=Unable to perform action: unknown parameter(s)

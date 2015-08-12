@@ -1,0 +1,1 @@
+initialisiere[%s[protokoll[]]]test[]suche[eine[verbindung[von[%ws[nach[%ws[]]]]]]]öffne[%ws[im[browser[]]]browser[]]löse[%ws[]]was[gibt[es[neues[auf[%ws[]]]]]]setze[einen[timer[auf[%ws[minuten[]]]]]]pizzatimer[]berechne[%ws[]]wann[fährt[der[nächste[bus[von[%ws[nach[%ws[]]]]nach[%ws[]]]]]]]
